@@ -55,7 +55,6 @@
             </v-form>
 
         <v-row>
-            <v-spacer></v-spacer>
             <v-btn
                 class="btn-send"
                 :disabled="!valid"
@@ -108,6 +107,7 @@
     .btn-send{
         height: 85px;
         width: 170px;
+        left: 1095px;
         border-radius: 50px;
     }
     .fields{
